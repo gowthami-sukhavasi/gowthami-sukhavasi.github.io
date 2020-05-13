@@ -1,40 +1,199 @@
 <html>
 <head>
- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="index.css">
-<title> My portfolio</title>
+<title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-
-<div class = "container">
-	 <div class = "section1">
-	 	<div class = "image"> <img src = "https://www.agendalugano.ch/system/images/files/000/004/481/original/8280_heidi-closeup.jpg?1462994637" class="my-image"/>
+<section class="header">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent" id="nav">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#experience">Experience <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</span></a>
+              </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="location.href='https://gowthami.live/Resume/'" target="_blank">Resume</button>
+          </form>
         </div>
-
-       <div class = "about">
-       	  <p class="heading">Gowthami Sukhavasi <br>Mean Stack Developer</p>
-          <p> Hi, Welcome to my page!</p><p>I have completed my MS in Software Engineering from VIT, Vellore.<br>
-           Currently working with Cerner Healthcare Solutions, Bangalore.</p>
-       </div>
-  </div>
-
- <div class = "section2">
-    <p class="heading"> TECHNOLOGIES </p>
-    <div class="images">
-        <div class="items"><img src="js.png"    class="myJSimage"></div>
-        <div class="items"><img src="html.jpg"  class="myHTMLimage"></div>
-        <div class="items"><img src="css.png"   class="myCSSimage"></div>
-        <div class="items"><img src="php.png"   class="myPHPimage"></div>
-        <div class="items"><img src="sql.png"   class="mySQLimage"></div>
-    </div>
- </div>
-
- <div class = "section4">
- 	<p class="subheading"> PROJECTS <br><br><br>   1. MedsApp – A personal health care management system in Android. <br> <br>
- 2. Tourism website (HTML, CSS and JavaScript) <br> <br> 3. Banking management system using PHP<br><br>  4. Library Management system using SQL<br><br> </p>
- </div>
-
+      </nav>
+      <div class="name">
+          <h2 class="para">Gowthami Sukhavasi</h2>
+          
+      </div>
+      <div id="particles-js"></div>
+     <div class="scrolldown">
+    <span></span>
+    <span></span>
+    <span></span>
 </div>
+</section>    
+<section class="users-feedback" id="experience">
+    <h1>Work Experience</h1> 
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <div class="user-review">
+        <p>
+         
+    ● Worked as a Full Stack Developer in Soarian Financials Team which delivers a Claims
+    application that aids Insurance claim process for the patients visiting the hospitals.
+    <br>
+    ● Worked in a Newsletter team which releases the company's updates every quarter. I have
+    developed the frontend using React and Javascript.
+    <br>
+    ● Received a NOTT Award in Dec 2018. It is awarded when an associate goes above and
+    beyond by achieving exemplary results on a project, either by stepping up to the plate and
+    coordinating a project or handling extraordinary issues with a professional attitude.
+            </p>
+        <h5>System Engineer</h5>
+        <h6>Cerner Healthcare Solutions</h6>
+        <small>Jun 2017 - April 2020</small>
+        </div>
+        <a href="https://www.cerner.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/1158402752780865536/GO9mzBWF_400x400.jpg"></a>
+    </div>    
+    <div class="col-md-6">
+    <div class="user-review">
+        <p>● Understood the challenges in the healthcare industry by working closely with different teams
+            and different solutions offered by Cerner Healthcare. <br>
+            ● Designed and developed a ‘Package Tracking tool’ which displays the build and package
+            details of all the domains when a particular client is selected. This tool hosts details of more
+            than a 100 clients.<br>
+            ● Received a STAR Award in March 2017. The S.T.A.R. (Special Thanks and Recognition)
+            Award program is awarded to associates who go above and beyond throughout the quarter.
+    
+        </p>
+        <h5>Software Intern</h5>
+        <h6>Cerner Healthcare Solutions</h6>
+        <small>Dec 2016 - Jun 2017</small>
+        </div>
+        <a href="https://www.cerner.com/" target="_blank"><img src="https://media.glassdoor.com/sql/1242/cerner-squarelogo-1571236668281.png"></a>
+    </div>    
+    </div>    
+    </div>
+    </section>
+    
+<section class="features" id="projects">
+<h1>PROJECTS</h1> 
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="https://besthqwallpapers.com/Uploads/29-3-2018/46315/burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg">
+    </div>
+    <div class="feature-details">
+        <h4>Food Recommendation</h4>
+        <p>This responsive website is created using HTML, CSS and Javascript. 
+            When a city name is entered by the user, Zomato API is used to fetch food collection of that particular city and dispalyed accordingly.
+         
+        </p>
+        <div>
+        <span><a target="_blank" href="https://github.com/gowthami-sukhavasi/Food-recommendation"><i class="fa fa-github"></i></a>GITHUB</span>
+        <span style="float: right;"><a target="_blank" href=" https://gowthami.live/Food-recommendation/"><i class="fa fa-external-link"></i></a>VIEW</span>
+        </div>
+    </div>
+    </div>
+</div>    
+<div class="col-md-4">
+<div class="feature-box">
+    <div class="feature-img">
+    <img src="https://image.freepik.com/free-photo/notes-list-christmas-composition-christmas-gift-knitted-blanket-pine-cones-fir-branches-wooden-white-background-flat-lay-top-view_3544-186.jpg">
+    </div>
+    <div class="feature-details">
+        <h4>To-do list</h4>
+        <p>This to-do list is created using HTML, CSS and Javascript.
+         A user can add a task, mark a task as completed and delete an already added task.
+         Current date is also displayed for the user's convinence.
+   
+             </p>
+        <div>
+            <span><a target="_blank" href="https://github.com/gowthami-sukhavasi/To-do-list"><i class="fa fa-github"></i></a>GITHUB</span>
+            <span style="float: right;"><a target="_blank" href="https://gowthami-sukhavasi.github.io/To-do-list/"><i class="fa fa-external-link"></i></a>VIEW</span>
+        </div>
+    </div>
+    </div>    
+</div>    
+<div class="col-md-4">
+<div class="feature-box">
+    <div class="feature-img">
+    <img src="https://static.coindesk.com/wp-content/uploads/2018/03/btc-chart.jpg">
+    </div>
+    <div class="feature-details">
+        <h4>Bitcoin graph</h4>
+        <p> Using highcharts in javascript and a bitcoin price API, a graph is created to compare the price of
+            bitcoin in USD, GBP, EUR. The graph is updated after every 3 seconds with the current time
+            and price.
+        </p>
+        <div>
+            <span><a target="_blank" href="https://github.com/gowthami-sukhavasi/Bitcoin-price"><i class="fa fa-github"></i></a>GITHUB</span>
+            <span style="float: right;"><a target="_blank" href="https://gowthami-sukhavasi.github.io/Bitcoin-price/"><i class="fa fa-external-link"></i></a>VIEW</span>
+        </div>
+    </div>
+    </div>    
+</div>    
+</div>    
+</div>
+</section>
+
+<section class="banner" id="education">
+    <h1>Education</h1> 
+    <div class="banner-highlights">
+ 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                <h3>MS (Software Engineering)</h3><h6>May 2017</h6>
+                <h6>VIT University, Vellore, India</h6>
+                <p>Graduated with 8.93 CGPA</p>
+                </div>
+                <div class="col-md-4">
+                <a href="https://vit.ac.in/" target="_blank"><img src="https://lh3.googleusercontent.com/proxy/fxBi-8U9b-g6Rdo4dX6rBFz5vNNDjQ2gVkT5tDsgoxZTF3MzPuAKLoTpW9kOEmHbGaVB_p4tD0w9XjLRXevP28KR2Ppd4vG0O32-SHwr7YTwl17G7AWHoCJdKnpL0Gvxb5rxgNGXDSgj8g4KSaD0w87XRzTxXWjgPoDzWsMrg_SIZQ6Mxb292tE993PinQegiRtpOJ--bzovlCKiZsc"></a>      
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+<div class="container">
+<div class="row">
+ 
+
+    <div class="col-md-6">
+    <h4>Contact Details</h4>
+    <p><i class="fa fa-phone-square"></i> +919597430479 </p>
+    <p><i class="fa fa-envelope"></i> gow.sukhavasi@gmail.com</p>
+    <p><i class="fa fa-home"></i> Bangalore</p>
+    </div>
+    <div class="col-md-6">
+    <h4>Find me</h4>
+    <p><i class="fa fa-github"></i>GITHUB</p>
+    <p><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</p>
+    </div>
+</div><hr>
+    <p class="copyright">Made with <i class="fa fa-heart"></i> by Gowthami Sukhavasi</p>
+</div>    
+</section>
+
+<script src="main.js"></script>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
 </html>
