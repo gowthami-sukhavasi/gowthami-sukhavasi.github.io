@@ -4,21 +4,12 @@
 }
 .header{
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.itl.cat/pngfile/big/227-2271722_night-sky-1080p.jpg");
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 20px;
     color: #fff;
-}
-.header h1{
-    padding-top: 260px;
-    padding-bottom: 0;
-    font-size: 55px;
-}
-.header p
-{
-    margin: 18px 0;
 }
 .name{
     display: flex;
@@ -36,8 +27,9 @@
     border-radius: 16px; /* for curved borders */
 }
 #particles-js{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.itl.cat/pngfile/big/227-2271722_night-sky-1080p.jpg");
-    height: 100vh;
+    background-color: black;
+    /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.itl.cat/pngfile/big/227-2271722_night-sky-1080p.jpg");
+    */height: 100vh;
     background-size: cover;
     background-position: center;
 }
@@ -59,164 +51,6 @@
     .name .para{
         font-size: 20px;
     }
-}
-/*header section ends*/
-/*features*/
-.features
-{
-    padding: 100px 0;
-
-}
-h1
-{
-    text-align: center;
-    padding-bottom: 30px;
-    
-}
-.feature-img img
-{
-    width: 100%;
-    max-height: 220px;
-    border-radius: 10px;
-    transition: 0.5s;
-}
-.feature-img
-{
-    position: relative;
-}
-.feature-img img:hover
-{
-    transform: scale(1.1);
-}
-.features span .fa:hover{
-    transform: scale(1.1);
-    color: dodgerblue;
-
-}
-.features .fa
-{
-    font-size: 25px;
-    color: #ff5722;
-}
-.feature-details
-{
-    padding: 20px;
-    text-align: justify;
-}
-.feature-details h4
-{
-    font-weight: 600;
-    margin-top: 20px;
-}
-.feature-details .fa
-{
-    margin-right: 5px;
-}
-.feature-box
-{
-    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
-    margin-bottom: 30px;
-      border-radius: 10px;
-}
-/*features ends*/
-
-
-/*banner starts*/
-.banner
-{
-    height: 70%;
-    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 8%;
-}
-.banner-highlights
-{
-    padding: 70px 0;
-    text-align: center;
-    color:black;
-    
-}
-.banner-highlights img
-{
-    width: 90px;
-    height: 90px;
-    border-radius: 10%;
-    position: relative;
-    margin: 10px 0 20px 40%;
-}
-/*banner ends*/
-/*feedback starts*/
-.users-feedback
-{
-    padding: 100px 0;
-    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
-}
-.user-review
-{
-    text-align: center;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
-    padding-bottom: 50px;
-}
-.user-review p
-{
-    padding: 25px 10px 10px 10px;
-}
-.users-feedback img
-{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: relative;
-    margin: -50px 0 20px 40%;
-}
-
-/*feedback ends*/
-/*footer starts*/
-.footer
-{
-    padding: 100px 20px 15px;
-    background-image: linear-gradient(#2d557d,#9610fb);
-    color: #fff;
-}
-.footer-logo
-{
-    width: 150px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.footer h4
-{
-    text-align: left;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-.footer p
-{
-    font-size: 12px;
-    text-align: justify;
-    padding-right: 35px;
-}
-.footer .row .fa
-{
-    padding-right: 20px;
-    font-size: 15px;
-}
-.footer hr
-{
-    margin-top: 10px;
-    background: #efefef;
-}
-.fa-heart
-{
-    margin 0 5px;
-    color: #f44336;
-}
-.footer .copyright
-{
-    text-align: center;
-    
 }
 /*scroll animation*/
 .scrolldown{
@@ -272,4 +106,191 @@ h1
         left: 5px;
         opacity: 0;
     }
+}
+/*header section ends*/
+
+/*work experience starts*/
+.users-feedback
+{
+    padding: 100px 0;
+    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.user-review
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+.user-review p
+{
+    padding: 25px 10px 10px 10px;
+    text-align: left;
+}
+.users-feedback img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    margin: -50px 0 20px 40%;
+}
+@media only screen and (max-width:991px){
+    .users-feedback .row{
+        padding: 0;
+        margin: 0;
+    }
+}
+/*feedback ends*/
+/*features*/
+.features
+{
+    padding: 100px 0;
+    background-color: #e1f4f3;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img
+{
+    width: 100%;
+    max-height: 220px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.feature-img
+{
+    position: relative;
+}
+.feature-img img:hover
+{
+    transform: scale(1.1);
+}
+.features span .fa:hover{
+    transform: scale(1.1);
+    color: dodgerblue;
+}
+.features .fa
+{
+    font-size: 25px;
+    color: #ff5722;
+}
+.feature-details
+{
+    padding: 20px;
+}
+.feature-details h4
+{
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}
+.feature-details .fa
+{
+    margin-right: 5px;
+}
+.feature-box
+{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+/*features ends*/
+
+/*banner starts*/
+.banner
+{
+    height: 80%;
+    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 4%;
+}
+h1
+{
+    text-align: center;
+    padding-top: 1px;
+}
+.banner-highlights
+{
+    padding: 70px 0;
+    text-align: center;
+    color:black;
+    
+}
+.banner-highlights img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+    position: relative;
+    margin: 10px 0 20px 40%;
+}
+
+@media only screen and (max-width:575px){
+    .banner-highlights
+{
+    padding: 20px 0;
+    
+}
+    .banner-highlights img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+    position: relative;
+    margin: 50px 0 0 -1%;
+}
+}
+/*banner ends*/
+/*footer starts*/
+.footer
+{
+    padding: 100px 20px 15px;
+    /*background-image: linear-gradient(#2d557d,#9610fb);*/
+    background-color: black;
+    color: #fff;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p
+{
+    font-size: 12px;
+    text-align: center;
+    padding-right: 35px;
+}
+.footer .row .fa
+{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #efefef;
+}
+.fa-heart
+{
+    margin 0 5px;
+    color: #f44336;
+}
+.footer .copyright
+{
+    text-align: center;
+    
 }
