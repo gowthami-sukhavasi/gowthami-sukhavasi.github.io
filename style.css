@@ -25,6 +25,7 @@
     padding: 8px 24px;
     position: absolute;
     border-radius: 16px; /* for curved borders */
+    transform: translateY(-50%);
 }
 #particles-js{
     background-color: black;
