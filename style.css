@@ -114,10 +114,18 @@
 .users-feedback
 {
     padding: 100px 0;
-    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
+    background-image: url("https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.users-feedback h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 30px;
 }
 .user-review
 {
@@ -140,6 +148,12 @@
     position: relative;
     margin: -50px 0 20px 40%;
 }
+
+.users-feedback img:hover
+{
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width:991px){
     .users-feedback .row{
         padding: 0;
@@ -151,12 +165,16 @@
 .features
 {
     padding: 100px 0;
-    background-color: #e1f4f3;
+    background-color: black;
 }
-h1
+.features h1
 {
     text-align: center;
     padding-bottom: 30px;
+    color: white;
+}
+.feature-box{
+    background-color: white;
 }
 .feature-img img
 {
@@ -208,22 +226,24 @@ h1
 .banner
 {
     height: 80%;
-    background-image: url("https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-image: url("https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 4%;
 }
-h1
+.banner h1
 {
     text-align: center;
     padding-top: 1px;
+    color:white;
+
 }
 .banner-highlights
 {
     padding: 70px 0;
     text-align: center;
-    color:black;
+    color:white;
     
 }
 .banner-highlights img
@@ -236,12 +256,12 @@ h1
 }
 
 @media only screen and (max-width:575px){
-    .banner-highlights
+.banner-highlights
 {
     padding: 20px 0;
     
 }
-    .banner-highlights img
+.banner-highlights img
 {
     width: 90px;
     height: 90px;
@@ -295,5 +315,5 @@ h1
 .footer .copyright
 {
     text-align: center;
-    
+
 }
