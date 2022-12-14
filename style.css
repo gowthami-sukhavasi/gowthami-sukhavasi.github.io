@@ -33,6 +33,10 @@
     transform: translateY(-50%);
 }
 
+.name .typewrite {
+    padding-top: 35px;
+}
+
 #particles-js {
     background-color: black;
     /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.itl.cat/pngfile/big/227-2271722_night-sky-1080p.jpg");
