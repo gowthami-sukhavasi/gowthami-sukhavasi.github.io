@@ -223,6 +223,10 @@
     color: dodgerblue;
 }
 
+.projects a{
+    color:#AD974F;;
+}
+
 .projects .fa {
     font-size: 25px;
     color: #231F20;
