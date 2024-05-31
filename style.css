@@ -200,7 +200,7 @@
 
 .project-box {
     background-color: #EAEAEA;
-    max-height: 650px;
+    min-height: 450px;
 }
 
 .project-img img {
@@ -225,8 +225,9 @@
     color: dodgerblue;
 }
 
-.projects a{
-    color:#AD974F;;
+.projects a {
+    color: #AD974F;
+    ;
 }
 
 .projects .fa {
