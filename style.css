@@ -170,6 +170,7 @@
     height: 90px;
     border-radius: 50%;
     position: relative;
+    object-fit: cover;
     margin: -50px 0 20px 40%;
 }
 
